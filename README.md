@@ -1,4 +1,4 @@
-Finance tracker app
+Finance tracker social media app with Ruby on Rails 7.1
 
 - Ruby version : 3.2.4
 
