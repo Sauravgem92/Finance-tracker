@@ -7,6 +7,8 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.3"
 
 gem 'devise'
 
+gem 'devise-bootstrap-views', '~> 1.0'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
