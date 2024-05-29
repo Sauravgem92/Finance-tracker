@@ -9,6 +9,10 @@ gem 'devise'
 
 gem 'devise-bootstrap-views', '~> 1.0'
 
+gem 'iex-ruby-client'
+
+gem "font-awesome-rails"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 

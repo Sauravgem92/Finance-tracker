@@ -7,3 +7,11 @@
 .row div {
   margin: 0.5rem 0rem;
 }
+
+.search-area {
+  padding-top: 50px;
+}
+
+.results-block {
+  display: inline-block !important;
+}
