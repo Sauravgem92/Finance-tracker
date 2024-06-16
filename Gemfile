@@ -4,14 +4,21 @@ ruby "3.2.4"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.3"
-
+# To add authentication
 gem 'devise'
-
+# To add bootstrap views using command line
 gem 'devise-bootstrap-views', '~> 1.0'
-
+# To get the stock details
 gem 'iex-ruby-client'
-
+# To use diffent icons using rails code
 gem "font-awesome-rails"
+# Turbo gives you the speed of a single-page web application 
+# without having to write any JavaScript. Turbo accelerates links 
+# and form submissions without requiring you to change your server-side generated HTML. 
+gem 'turbo-rails'
+
+#iex is now paid so trying some new api
+gem 'twelvedata_ruby'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"

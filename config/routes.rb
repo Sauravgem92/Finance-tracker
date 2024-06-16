@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_stocks, only: [:create, :destroy]
   root 'welcome#index'
   devise_for :users
   #Adding the destroy get route as sign_out route is not working
